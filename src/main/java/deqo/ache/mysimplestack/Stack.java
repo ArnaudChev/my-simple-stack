@@ -3,8 +3,8 @@ package deqo.ache.mysimplestack;
 import java.util.EmptyStackException;
 
 public class Stack implements SimpleStack{
-    Item top;
-    int size = 0;
+    private Item top;
+    private int size = 0;
 
     /**
      * Tests if this stack is empty
