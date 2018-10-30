@@ -28,6 +28,7 @@ public class ItemTest {
     }
     @Test
     public void testSetNext() {
+        //test exigence 1
         item.setNext(new Item(4));
         assertEquals(4,item.getNext().getValue());
     }
