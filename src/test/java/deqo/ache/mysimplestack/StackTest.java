@@ -50,7 +50,7 @@ public class StackTest {
 
     @Test
     public void testSize(){
-        //test de l'exigence 2
+        //test de l'exigence 3
         //***//
         assertEquals(0,stack.getSize());
     }
